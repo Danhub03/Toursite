@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>FlyWithDan</title>
+</head>
+<body>
+    <nav>
+        <ul class ="sidebar">
+            <li onclick = hideSidebar()><a href = "#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </a></li>
+            <li><a href = "../index.html">Home</a></li>
+            <li><a href = "../html/galleri.html">Galleri</a></li>
+            <li><a href = "../html/historia.html">History</a></li>
+            <li><a href = "../html/resa_bokning.html">Travel</a></li>
+            <li><a href = "../html/kontakt.html">Contact</a></li>
+            
+
+        </ul>
+        <ul>
+            <li><h1><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>Fly To Jerevan<hr></h1></li>
+            <li class ="hideOnMobile"><a href = "../index.html">Home</a></li>
+            <li class ="hideOnMobile"><a href = "../html/galleri.html">Galleri</a></li>
+            <li class ="hideOnMobile"><a href = "../html/historia.html">History</a></li>
+            <li class ="hideOnMobile"><a href = "../html/resa_bokning.html">Travel</a></li>
+            <li class ="hideOnMobile"><a href = "../html/kontakt.html">Contact</a></li>
+            <li class = "menu-button" onclick = showSidebar()><a href = "#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+
+        </ul>
+        
+    </nav>
+    <!-- <div class = "container">
+
+    </div> -->
+
+    <div class ="divchange">
+        <h1 class = "h1change">History of Jerevan</h1>
+        <p class = "pchange">Yerevan is the capital and largest city of Armenia, and one of the world's oldest continuously inhabited cities. Situated along the Hrazdan River, Yerevan is the administrative, cultural, and industrial center of the country. It has been the capital since 1918, the thirteenth in the history of Armenia, and the seventh located in or around the Ararat plain.
+
+            The history of Yerevan dates back to the 8th century BC, with the founding of the fortress of Erebuni in 782 BC by king Argishti I at the western extreme of the Ararat plain. Erebuni was "designed as a great administrative and religious centre, a fully royal capital. During the centuries long Iranian rule over Eastern Armenia that lasted from the early 16th century up to 1828, it was the center of Iran's Erivan khanate administrative division from 1736. In 1828, it became part of Imperial Russia alongside the rest of Eastern Armenia which conquered it from Iran through the Russo-Persian War between 1826 and 1828. After World War I, Yerevan became the capital of the First Republic of Armenia as thousands of survivors of the Armenian Genocide in the Ottoman Empire settled in the area. The city expanded rapidly during the 20th century as Armenia became part of the Soviet Union. In a few decades, Yerevan was transformed from a provincial town within the Russian Empire, to Armenia's principal cultural, artistic, and industrial center, as well as becoming the seat of national government.
+            
+            With the growth of the economy of the country, Yerevan has been undergoing major transformation as many parts of the city have been the recipient of new construction since the early 2000s, and retail outlets as much as restaurants, shops, and street cafes, which were rare during Soviet times, have multiplied.
+            
+            As of 2011, the population of Yerevan was 1,060,138, just over 35% of the Republic of Armenia's total population. According to the official estimate of 2016, the current population of the city is 1,073,700. Yerevan was named the 2012 World Book Capital by UNESCO. Yerevan is an associate member of Eurocities.
+        <!-- <a class = "achange" target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p> -->
+        <!-- <img src="../img/location.jpg" alt="Northern Lights" width="600" height="400"> -->
+
+      </div>
+
+    
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+</body>
+</html>
